@@ -20,7 +20,7 @@ module.exports = [
 					test: [/\.svg$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
 					loader: "file-loader",
 					options: {
-						name: "build/media/[name].[ext]",
+						name: "[name].[ext]",
 						publicPath: url => url.replace(/build/, "")
 					}
 				},
