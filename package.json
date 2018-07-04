@@ -1,0 +1,43 @@
+{
+  "name": "dsjrecommend",
+  "version": "1.0.0",
+  "description": "dsj SSR of react project for recommend",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --progress && NODE_ENV=development node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShareTechChina/DSJRecommend.git"
+  },
+  "keywords": [
+    "ssr"
+  ],
+  "author": "xiewang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShareTechChina/DSJRecommend/issues"
+  },
+  "homepage": "https://github.com/ShareTechChina/DSJRecommend#readme",
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "express": "^4.16.3",
+    "file-loader": "^1.1.11",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react-app": "^3.1.2",
+    "create-react-class": "^15.6.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "postcss-loader": "^2.1.5",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
