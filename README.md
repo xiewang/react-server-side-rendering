@@ -6,7 +6,7 @@ Example
 
 ```sh
 $ npm install
-$ node server.js
+$ npm start
 ```
 
 Then navigate to [http://localhost:3000](http://localhost:8082)
