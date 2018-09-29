@@ -1,5 +1,5 @@
 {
-  "name": "react-server-side-rendering",
+  "name": "react-server-side-rendering-demo",
   "version": "1.0.0",
   "description": "SSR of react project",
   "main": "index.js",
