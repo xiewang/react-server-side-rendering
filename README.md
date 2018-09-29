@@ -5,7 +5,7 @@ Example
 -------
 
 ```sh
-$ npm install
+$ npm install react-server-side-rendering
 $ npm start
 ```
 

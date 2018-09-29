@@ -1,14 +1,14 @@
 {
-  "name": "dsjrecommend",
+  "name": "react-server-side-rendering",
   "version": "1.0.0",
-  "description": "dsj SSR of react project for recommend",
+  "description": "SSR of react project",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack --progress && NODE_ENV=development node server/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShareTechChina/DSJRecommend.git"
+    "url": "git+https://github.com/xiewang/react-server-side-rendering.git"
   },
   "keywords": [
     "ssr"
@@ -16,9 +16,9 @@
   "author": "xiewang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShareTechChina/DSJRecommend/issues"
+    "url": "https://github.com/xiewang/react-server-side-rendering/issues"
   },
-  "homepage": "https://github.com/ShareTechChina/DSJRecommend#readme",
+  "homepage": "https://github.com/xiewang/react-server-side-renderingd#readme",
   "dependencies": {
     "css-loader": "^0.28.11",
     "express": "^4.16.3",
